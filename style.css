@@ -1,8 +1,16 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
 header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: blueviolet;
+    margin: 0;
 }
 
 #nav-title {
@@ -12,14 +20,17 @@ header {
 header li {
     list-style: none;
     display: inline-block;
-    padding: 0 20px;
+    padding: 0;
+    margin: 0;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
+    background-color: blueviolet;
+
 }
 
 footer li {
@@ -35,8 +46,9 @@ footer li {
     padding: 10px;
     height: auto;
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    background-color: aliceblue;
+    
 }
 
 .gallery {
@@ -47,6 +59,11 @@ footer li {
     grid-row-gap: 15px;
     max-width: 75%;
     margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: aquamarine;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
