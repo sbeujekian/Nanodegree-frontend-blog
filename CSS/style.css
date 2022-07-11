@@ -1,6 +1,8 @@
 body {
     background-color: blanchedalmond;
     margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 header {
@@ -11,6 +13,7 @@ header {
     padding-right: 20px;
     background-color: blueviolet;
     margin: 0;
+    grid-column: span 4;
 }
 
 #nav-title {
@@ -18,7 +21,6 @@ header {
 }
 
 header li {
-    list-style: none;
     display: inline-block;
     padding: 0;
     margin: 0;
@@ -28,9 +30,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 20px 20px; */
     background-color: blueviolet;
-
+    grid-column: span 4;
 }
 
 footer li {
@@ -44,26 +45,45 @@ footer li {
     border-color: black;
     border-style: solid;
     padding: 10px;
-    height: auto;
-    width: auto;
-    margin: auto;
     background-color: aliceblue;
-    
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 15px;
     grid-row-gap: 15px;
-    max-width: 75%;
     margin-top: 25px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-bottom: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: aquamarine;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 35px;
     padding-bottom: 35px;
+    grid-column: 1/-1;
+    grid-auto-rows: minmax(min-content, max-content);
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+#contact {
+    border-color:black;
+    border-style: solid;
+    height: 3rem;
+    padding: 6px;
+    margin-left: 10px;
+    align-content: center;
+}
+
+#contact:hover {
+    color: hotpink;
+    background-color: lightgreen;}
+
+a {
+    text-decoration: none;
 }
