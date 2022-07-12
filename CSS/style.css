@@ -1,9 +1,11 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #ffb2dd;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 header {
@@ -12,27 +14,50 @@ header {
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: blueviolet;
+    background-color: #ff80ab;
     margin: 0;
     grid-column: span 4;
     height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #nav-title {
     margin-right: auto;
+    font-family: 'Rubik Moonrocks', cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    color: #1d1b1b;
 }
 
 header li {
     display: inline-block;
-    padding: 0;
-    margin: 0;
+    padding: 2px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    color: #1d1b1b;
+    
+}
+
+header a {
+    color: #1d1b1b;
+}
+
+header a:hover {
+    color:#ffb2dd;
+}
+
+header li:hover {
+    color: #ffb2dd;
+    background-color: #bfcc50;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+    background-color: #ff80ab;
     grid-column: span 4;
     margin-top: auto;
     margin-bottom: 0;}
@@ -41,14 +66,23 @@ footer li {
     list-style: none;
     display: inline-block;
     padding: 0 20px;
+    font-size: 40px;
+}
+
+footer h2 {
+    font-family: 'Bebas Neue', cursive;
 }
 
 .card {
-    border: 1px;
-    border-color: black;
-    border-style: solid;
     padding: 10px;
-    background-color: aliceblue;
+    background-color: #f7f7f7;
+    border-radius: 2%;
+}
+
+.card h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color:#ff80ab;
 }
 
 .gallery {
@@ -58,7 +92,7 @@ footer li {
     grid-row-gap: 15px;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: aquamarine;
+    background-color: #ffffb3;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 35px;
@@ -71,33 +105,33 @@ img {
     display: block;
 }
 
-#contact {
-    border-color:black;
-    border-style: solid;
-    padding: 6px;
-    margin-left: 10px;
-}
-
-#contact:hover {
-    color: hotpink;
-    background-color: lightgreen;
-}
-
 a {
+    text-decoration: underline;
+    text-decoration-color: #ff80ab;
+    text-decoration-thickness: 2px;
+}
+
+nav a {
     text-decoration: none;
 }
-    }
-
 
 .fa {
-    padding: 10px;
-    font-size: 30px;
-    /* width: 30px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 40px;
+    color:#ff80ab;
     text-align: center;
     text-decoration: none;
-    border-radius: 25%%;
-    background-color: aquamarine;
+    border-radius: 50%;
+    background-color:#ffffb3;
   }
+
+.fa:hover {
+    background-color: #bfcc50;
+    color:#ffb2dd;
+}
  
 @media only screen and (max-width: 600px) {
     body {
