@@ -1,0 +1,17 @@
+.fa {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 40px;
+    color:#ff80ab;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color:#ffffb3;
+  }
+
+.fa:hover {
+    background-color: #bfcc50;
+    color:#ffb2dd;
+}
