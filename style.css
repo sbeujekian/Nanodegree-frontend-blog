@@ -1,5 +1,5 @@
 body {
-    background-color: #ffb2dd;
+    background-color:#ffffb3;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -85,6 +85,11 @@ footer h2 {
     color:#ff80ab;
 }
 
+.card a {
+    color:#ff80ab;
+    font-weight: 500;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -92,7 +97,7 @@ footer h2 {
     grid-row-gap: 15px;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: #ffffb3;
+    background-color:#ffb2dd;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 35px;
