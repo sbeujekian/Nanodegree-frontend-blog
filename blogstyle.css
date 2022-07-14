@@ -73,23 +73,6 @@ footer h2 {
     font-family: 'Bebas Neue', cursive;
 }
 
-.card {
-    padding: 10px;
-    background-color: #f7f7f7;
-    border-radius: 2%;
-}
-
-.card h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color:#ff80ab;
-}
-
-.card a {
-    color:#ff80ab;
-    font-weight: 500;
-}
-
 .article {
     display: grid;
     grid-template-columns: 1fr;
@@ -171,14 +154,6 @@ nav a {
         grid-row-gap: 15px;
         max-width: 100%;
         margin: 0;
-    }
-
-    .card {
-        padding: auto;
-        margin-left: 1em;
-        margin-right: 1em;
-        min-width: auto;
-        grid-column: span 1;
     }
 
     img {max-width:100%;
