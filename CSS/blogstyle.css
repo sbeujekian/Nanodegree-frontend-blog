@@ -88,6 +88,25 @@ footer h2 {
     grid-column: 1/-1;
 }
 
+.author {
+display: flex;
+height: fit-content;
+padding: 10px;
+background: #ffffff;
+}
+
+/* .author ul {
+    padding: 5px;
+    background-color: whitesmoke;
+    margin: 1em;
+    margin-left: auto;
+    grid-area: 2 span 2;
+} */
+
+.author il {
+    list-style-position: inside;
+}
+
 img {
     margin: auto;
     display: block;
@@ -154,6 +173,16 @@ nav a {
         grid-row-gap: 15px;
         max-width: 100%;
         margin: 0;
+    }
+
+    .author {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .author img {
+        height: 75%;
+        width: 75%;
     }
 
     img {max-width:100%;

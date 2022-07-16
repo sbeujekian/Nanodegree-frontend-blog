@@ -123,6 +123,13 @@ img {
     display: block;
 }
 
+figcaption {
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
 a {
     text-decoration: underline;
     text-decoration-color: #ff80ab;
