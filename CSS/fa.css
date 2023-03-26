@@ -1,17 +1,20 @@
 .fa {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 12px;
-    padding-right: 12px;
-    font-size: 40px;
-    color:#ff80ab;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    background-color:#ffffb3;
-  }
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 40px;
+  color:#2BD999;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color:#F2EEEB;
+  border: 1px solid #2BD999;
+}
 
 .fa:hover {
-    background-color: #bfcc50;
-    color:#ffb2dd;
+  background-color: #2BD999;
+  color:#F2B3D6;
+  border: 1px solid #F2B3D6;
+  cursor: pointer;
 }
