@@ -8,27 +8,19 @@ body {
     font-weight: 100;
 }
 
+/*HEADER DESIGN*/
 header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #ff80ab;
+    background-color: #F2B3D6;
     margin: 0;
     grid-column: span 4;
-    height: fit-content;
+    height: 90px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-#nav-title {
-    margin-right: auto;
-    font-family: 'Rubik Moonrocks', cursive;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 50px;
-    color: #1d1b1b;
 }
 
 header li {
@@ -45,19 +37,28 @@ header a {
 }
 
 header a:hover {
-    color:#ffb2dd;
+    color: #F2B3D6;
 }
 
 header li:hover {
-    color: #ffb2dd;
-    background-color: #bfcc50;
+    color: #238C6E;
+    border: 1px solid;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-family: 'Rubik Moonrocks', cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    color: #1d1b1b;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ff80ab;
+    background-color: #F2B3D6;
     grid-column: span 4;
     margin-top: auto;
     margin-bottom: 0;}
@@ -82,13 +83,13 @@ footer h2 {
 .card h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color:#ff80ab;
+    color:#F2B3D6;
 }
 
 .button {
-    color:#ff80ab;
+    color:#238C6E;
     font-weight: 500;
-    background-color:#ffffb3;
+    background-color:#F2EEEB;
     border: none;
     padding:6px 31px;
     margin:0;
@@ -96,11 +97,15 @@ footer h2 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border: 1px solid #238C6E;
     border-radius: 20px;
 }
 
 .button:hover {
-    box-shadow:inset 3px 5px 5px 0px #bfcc50;
+    box-shadow:inset 3px 5px 5px 0px #F2EEEB;
+    border: 1px solid #238C6E;
+    cursor: pointer;
+    color: #2BD999;
 }
 
 .gallery {
@@ -110,7 +115,7 @@ footer h2 {
     grid-row-gap: 15px;
     margin-left: 10%;
     margin-right: 10%;
-    background-color:#ffb2dd;
+    background-color:#e9d4df;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 35px;
@@ -132,7 +137,7 @@ figcaption {
 
 a {
     text-decoration: underline;
-    text-decoration-color: #ff80ab;
+    text-decoration-color: #F2B3D6;
     text-decoration-thickness: 2px;
 }
 

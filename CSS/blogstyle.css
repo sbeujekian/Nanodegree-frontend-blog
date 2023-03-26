@@ -1,25 +1,11 @@
 body {
-    background-color:#ffffb3;
+    background-color:#F2EEEB;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-}
-
-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #ff80ab;
-    margin: 0;
-    grid-column: span 4;
-    height: fit-content;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 #nav-title {
@@ -31,13 +17,33 @@ header {
     color: #1d1b1b;
 }
 
+/*HEADER STYLING*/
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F2B3D6;
+    margin: 0;
+    grid-column: span 4;
+    height: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 header li {
     display: inline-block;
-    padding: 2px;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
     font-family: 'Bebas Neue', cursive;
     font-size: 2em;
-    color: #1d1b1b;
-    
+    color: #1d1b1b;   
+    background-color: #F2EEEB;
+    margin-right: 5px;
+    border: 1px solid #F2EEEB;
 }
 
 header a {
@@ -45,19 +51,16 @@ header a {
 }
 
 header a:hover {
-    color:#ffb2dd;
+    color:#F2B3D6;
+    cursor: pointer;
 }
 
-header li:hover {
-    color: #ffb2dd;
-    background-color: #bfcc50;
-}
-
+/*FOOTER STYLING*/
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ff80ab;
+    background-color: #F2B3D6;
     grid-column: span 4;
     margin-top: auto;
     margin-bottom: 0;}
@@ -80,7 +83,7 @@ footer h2 {
     grid-row-gap: 15px;
     margin-left: 10%;
     margin-right: 10%;
-    background-color:#ffb2dd;
+    background-color:#e9d4df;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 35px;
@@ -117,7 +120,7 @@ img {
 
 a {
     text-decoration: underline;
-    text-decoration-color: #ff80ab;
+    text-decoration-color: #F2B3D6;
     text-decoration-thickness: 2px;
 }
 
@@ -131,16 +134,19 @@ nav a {
     padding-left: 12px;
     padding-right: 12px;
     font-size: 40px;
-    color:#ff80ab;
+    color:#2BD999;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    background-color:#ffffb3;
+    background-color:#F2EEEB;
+    border: 1px solid #2BD999;
   }
 
 .fa:hover {
-    background-color: #bfcc50;
-    color:#ffb2dd;
+    background-color: #2BD999;
+    color:#F2B3D6;
+    border: 1px solid #F2B3D6;
+    cursor: pointer;
 }
  
 @media only screen and (max-width: 600px) {
